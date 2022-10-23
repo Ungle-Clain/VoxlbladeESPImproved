@@ -77,8 +77,6 @@ while true do
                 ESP:Add(model.HumanoidRootPart,{
                     Name = v.Name,
                     Color = BrickColor.new(s:FindFirstChild("Legendary") and s.Legendary.Value and "Bright yellow" or s:FindFirstChild("Magical") and s.Magical.Value and "Cyan" or "Really red").Color,
-                    if s:FindFirstChild("Legendary") and s.Legendary.Value then local audio = instance.new("Sound")
-                    audio.SoundId = "rbxassetid://4466550187" audio:Play()
                     IsEnabled = "Enemies"
                 })
                 Instance.new("Part",model).Name = "EGG"
